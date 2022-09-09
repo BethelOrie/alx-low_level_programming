@@ -1,3 +1,11 @@
-#!/bin/bash
 #include <stdio.h>
-int main(void) {puts("programming is like building a multilingual puzzle\n"); return (O);}
+/** 
+ * main -Entry point
+ *
+ * Return: Always O (Success)
+ */
+int main(void) 
+{
+  puts("\"Programming is like building a multilingual puzzle");
+  return (O);
+}
