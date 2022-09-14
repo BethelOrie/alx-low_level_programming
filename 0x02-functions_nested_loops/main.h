@@ -1,1 +1,1 @@
-echo _putchar
+_putchar
