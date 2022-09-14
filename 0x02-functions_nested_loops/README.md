@@ -1,1 +1,1 @@
-i am learning C language programmingat ALX
+i am learning C language
