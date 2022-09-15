@@ -1,25 +1,16 @@
-#include <unistd.h>
-#include <time.h>
+#include "main.h"
 
-#include <stdio.h>
 /**
- * main - Prints a random number and states whether it is positive, negative, or zero.
- *
- * Return: Always 0.
+ * main - test functions that prints if integer is positive or negative
+ * Return: 0
  */
+
 int main(void)
 {
-	int n;
+	int i;
 
+	i = 0;
+	positive_or_negative(i);
 
-	if (n > 0)
-		printf("%d is positive\n", 98);
-
-	else if (n < 0)
-		printf("%d is negative\n", 0);
-
-	else
-		printf("%d is zero\n", -98);
-
-	return (0);
+	Return (0);
 }
