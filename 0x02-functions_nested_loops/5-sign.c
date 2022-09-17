@@ -2,8 +2,8 @@
 
 /**
  * print_sign - function that prints the sign of a number
- * @n: input letter
- * Return: always success
+ * @n: input Letter
+ * Return: Always success
  */
 int print_sign(int n)
 {
