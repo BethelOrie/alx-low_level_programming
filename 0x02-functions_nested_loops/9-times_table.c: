@@ -1,0 +1,9 @@
+_table.c:30:3: error: expected declaration or statement at end of input
+
+   30 |   }
+
+      |   ^
+
+9-times_table.c:30:3: error: expected declaration or statement at end of input
+
+9-times_table.c:30:3: error: expected declaration or statement at end of input
