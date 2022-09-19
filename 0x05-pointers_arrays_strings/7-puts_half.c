@@ -6,6 +6,7 @@
  * str: string param
  */
 void puts_half(char *str)
+{
 	int X, Y, i;
 
 	X = strlen(str);
