@@ -2,7 +2,7 @@
 
 /**
  * _puts - this is the function that puts
- * @str: a parameter to _puts function
+ * @str: a param to _puts function
  */
 void _puts(char *str)
 {
@@ -10,4 +10,5 @@ void _puts(char *str)
 	{
 		_putchar(*str);
 	}
+	_putchar('\n');
 }
