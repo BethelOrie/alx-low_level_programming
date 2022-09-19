@@ -5,7 +5,6 @@
  *  print_rev - printing a string in reverse
  * @s: the string to be printed in reverse
  */
-
 void print_rev(char *s)
 {
 	int i, n;
@@ -16,6 +15,6 @@ void print_rev(char *s)
 		n = strlen(s);
 	for (i = n - 1; i >= 0; i--)
 	{
-		_putchar([i]);
+		_putchar(s[i]);
 	}
 }
