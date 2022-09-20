@@ -2,7 +2,7 @@
 #include <string.h>
 #include <stdio.h>
 /**
- * _atoi - function returns the integer representation of the string
+ *int _atoi - function returns the integer representation of the string
  * @s: a pointer to a string to be converted to an integer
  * Return: Always 0.
  */
