@@ -1,9 +1,9 @@
 #include "main.h"
 #include <string.h>
-
 /**
- * puts_half - puts half
- * str: string parameter
+ *puts_half - The function should print the second half of the string
+ *str: string parameter
+ *Return: Alway 0.
  */
 void puts_half(char *str)
 {
