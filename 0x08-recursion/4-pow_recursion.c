@@ -12,7 +12,7 @@ if (y < 0) /*Base condition*/
 {
 return (-1);
 }
-else if (y != 0i)
+else if (y != 0)
 return (x * _pow_recursion(x, y - 1)); /* Recursive call*/
 
 else
