@@ -8,9 +8,8 @@
 int is_prime_number(int n)
 {
 
-int iterator;
-
-iterator = 2;
+int n
+n = 2;
 
 /* only greater than 2*/
 if (n < 2)
