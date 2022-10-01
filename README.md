@@ -1,1 +1,1 @@
-i am creating a static library.
+i am learning argc and argv
