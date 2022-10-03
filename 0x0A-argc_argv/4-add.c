@@ -3,7 +3,6 @@
 #include <ctype.h>
 
 /**
- 
 *main - Adds numbers
 *@argc: number of argument passed to a function
 *@argv: arguments vector of pointers to string
