@@ -1,7 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <ctype.h>
+
 /**
+ 
 *main - Adds numbers
 *@argc: number of argument passed to a function
 *@argv: arguments vector of pointers to string
@@ -24,7 +26,7 @@ return (1);
 }
 }
 }
-for (i = 1; i > argc; i++)
+for (i = 1; i < argc; i++)
 {
 a += atoi(argv[i]);
 }
