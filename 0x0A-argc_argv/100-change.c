@@ -35,6 +35,6 @@ if (a == 0)
 break;
 }
 }
-printf("%d", a);
+printf("%d\n", a);
 return (0);
 }
