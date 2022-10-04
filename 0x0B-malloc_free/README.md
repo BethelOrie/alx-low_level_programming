@@ -1,0 +1,1 @@
+using malloc to allocate memory to string. memory dynamics
