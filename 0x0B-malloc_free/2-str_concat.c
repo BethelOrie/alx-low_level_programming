@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdlib.h>
 
 /**
 *str_concat - function that concatenates two strings
@@ -16,7 +15,7 @@ char *concat_str;
 int index, concat_index = 0, len = 0;
 
 if (s1 == NULL)
-s1 == "";
+s1 = "";
 
 if (s2 == NULL)
 s2 = "";
