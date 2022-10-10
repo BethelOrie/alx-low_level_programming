@@ -1,11 +1,13 @@
 #ifndef DOG_H
 #define DOG_H
+#include <stdlib.h>
+#include <stdio.h>
 
 /**
- *struct - struct dog
+ *struct dog - Struct dog
  *@name: Name
  *@age: Age
- *owner: Owner
+ *@owner: Owner
  *Description: this struct is for dog
  */
 
@@ -23,21 +25,3 @@ dog_t *new_dog(char *name, float age, char *owner);
 void free_dog(dog_t *d);
 
 #endif /*DOG_H*/
-
-#include <stdlib.h>
-#include "dog.h"
-
-/**
-*free_dog - free memory
-*@d: array
-*Description: free memory to struct
-*/
-void free_dog(dog_t *d)
-{
-if (d)
-{
-free(d->name);
-free(d->owner);
-free(d);
-}
-}
