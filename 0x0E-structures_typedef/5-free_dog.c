@@ -3,17 +3,17 @@
 #include <stdio.h>
 
 /**
- *free_dog - free memory
- *@d: array
- *Description: free memory for struct
+ *free_dog - a function that frees dogs
+ *@d: points to dogs struct
+ *
+ * Return: void
  */
 
 void free_dog(dog_t *d)
 {
-	if (d);
-	{
-		free(d->name);
-		free(d->owner);
-		free(d);
-	}
+	if (d == 0)
+		return;
+	free(d->name);
+	free(d->owner);
+	free(d);
 }
