@@ -1,1 +1,1 @@
-i am learning the C language and currently on 0x10-variadic_functions
+i am still learning c language 0x10-variadic_functions
