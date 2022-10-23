@@ -33,4 +33,3 @@ printf("%s%s", sep, ptr);
 printf("\n");
 va_end(list);
 }
-
