@@ -6,27 +6,24 @@
  *@n: number of arguments
  *@separator: character separator of numbers
  *Return: Always 0.
+ *@...: a variable number of numbers to be printed
  */
 void print_numbers(const char *separator, const unsigned int n, ...)
 {
 	va_list numbers;
-	unsigned int i;
+	unsigned int index;
 
-	if (separator == NULL)
-	{
-		separator = "";
-	}
 	va_start(numbers, n);
 
-		for (i = 0; i < n; i++)
+		for (index = 0; index < n; index++)
 		{
 			printf("%d", va_arg(numbers, int));
-			if (n == i + 1)
-			{
-				break;
-			}
-			printf("%s", separator);
+
+			if (index != (n - 1) && separator != NULL)
+				printf("%s", separator);
 		}
+
 	printf("\n");
+
 	va_end(numbers);
 }
