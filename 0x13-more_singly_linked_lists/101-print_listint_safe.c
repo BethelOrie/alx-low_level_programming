@@ -44,6 +44,7 @@ return (nodes);
 }
 tortoise = tortoise->next;
 hare = hare->next->next;
+return (0);
 }
 
 /**
@@ -74,5 +75,6 @@ head = head->next;
 }
 printf("-> [%p] %d\n", (void *)head, head->n);
 }
+
 return (nodes);
 }
